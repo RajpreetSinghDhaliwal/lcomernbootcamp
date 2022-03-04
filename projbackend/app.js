@@ -14,5 +14,5 @@ mongoose.connect(process.env.DATABASE, {
 
  const port = process.env.PORT || 7400;
  app.listen(port,()=>{
-     console.log(`app is running at ${port}`);
+     console.log(`app is running at ${port}. Ensure to read at port`);
  })
